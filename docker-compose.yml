@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  tf:
+    image: quay.io/dtan4/terraforming:latest
+    env_file:
+      - .env
