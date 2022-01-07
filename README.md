@@ -58,6 +58,12 @@ Options:
   [--region=REGION]                              # AWS region
   [--use-bundled-cert], [--no-use-bundled-cert]  # Use the bundled CA certificate from AWS SDK
 ```
+## Variaveis
+
+Suas credenciais da AWS devem ser adicionadas no arquivo `.env`.
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- AWS_REGION
 
 ## Executando
 
@@ -75,6 +81,6 @@ Execute
 
 
 #### Referencias
-https://github.com/dtan4/terraforming/
-https://docs.docker.com/compose/compose-file/compose-file-v3/
-https://docs.docker.com/compose/reference/run/
+- https://github.com/dtan4/terraforming/
+- https://docs.docker.com/compose/compose-file/compose-file-v3/
+- https://docs.docker.com/compose/reference/run/
